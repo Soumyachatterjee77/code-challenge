@@ -1,5 +1,6 @@
-import React from 'react'
+import { Pokemon } from "../../../apps/app/src/interfaces/interfaces";
 
-export const List = () => {
-  return <p>List</p>
-}
+export const List = (props: Pokemon) => {
+  console.log({ props });
+  return <p>List</p>;
+};
